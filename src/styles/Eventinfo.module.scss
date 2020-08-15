@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
+$Source-Sans-Pro: 'Source Sans Pro', Arial;
+
+.displayContainer {
+    position: absolute;
+    left: 8.87rem;
+    top: 14rem;
+    width: 117.3rem;
+    height: 59.56rem;
+    background-color: white;
+    z-index: 120;
+    border-radius: 22px;
+    border: 1px solid #707070;
+    box-shadow: 3px 3px 6px rgba($color: #0F42CF, $alpha: .16);
+    overflow: hidden;
+    -webkit-animation: slide-in-right 0.3s .1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.3s .1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+
+.topDec {
+    position: absolute;
+    top: 0rem;
+    right: -0.2rem;
+}
+
+
+.goBack {
+    width: 3.31rem;
+    vertical-align: middle;
+}
+
+.goBackContainer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9.06rem;
+    margin-left: 5.8rem;
+    height: 4.12rem;
+    width: 4.12rem;
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px rgba($color: #000000, $alpha: .1);
+    cursor: pointer;
+}
+
+.title {
+    font-family: $Source-Sans-Pro;
+    font-size: 3.43rem;
+    display: inline-block;
+    border-bottom: 7px solid #0F98CF;
+    margin-left: 2rem;
+    color: #646363;
+}
+
+.info {
+    width: 35%;
+    min-width: 41rem;
+    max-width: 60rem;
+    margin-left: 5.8rem;
+    margin-top: 3.2rem;
+    font-family: $Source-Sans-Pro;
+    font-size: 1.8rem;
+    color: #787676;
+}
+
+.img {
+    -webkit-animation: slide-in-right 0.15s .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.15s .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

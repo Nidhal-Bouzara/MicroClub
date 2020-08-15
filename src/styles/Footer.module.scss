@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
+$Source-Sans-Pro: 'Source Sans Pro', Arial;
+
+.container {
+    width: 100vw;
+    height: 3.43rem;
+    position: relative;
+    z-index: 101;
+    top: 13rem;
+    display: flex;
+    align-items: center;
+    padding-left: 11.37rem;
+    background-color: #3E3E3E;
+}
+
+.credits {
+    color: white;
+    font-family: $Source-Sans-Pro;
+    font-weight: 200;
+}

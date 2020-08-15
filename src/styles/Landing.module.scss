@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
+$Source-Sans-Pro: 'Source Sans Pro', Arial;
+
+// Hero Text and watermark
+.watermark {
+    position: absolute;
+    left: 6.2rem;
+    top: 6.8rem;
+    z-index: -10;
+    user-select: none;
+    height: 21rem;
+}
+
+.heroText {
+    margin-top: 11.2rem;
+    margin-left: 11.3rem;
+}
+
+.heroHeadline {
+    font-family: $Source-Sans-Pro;
+    font-weight: bold;
+    font-size: 3.75rem;
+    letter-spacing: 2px;
+
+}
+
+.heroSubHeadline {
+    font-family: $Source-Sans-Pro;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #9B9B9B;
+    width: 50%;
+    margin-top: 1.4rem;
+}
+
+// Hero buttons
+.ctaButtons {
+    margin-top: 2.3rem;
+    position: relative;
+    z-index: 10;
+}
+
+.mainCTA {
+    background-color: #0F98CF;
+    color: white;
+    font-family: $Source-Sans-Pro;
+    font-weight: 600;
+    font-size: 2.3rem;
+    padding: .5rem 3.37rem;
+    border-radius: 12px;
+    cursor: pointer;
+}  
+
+.mainCTA:hover {
+    background-color: #0A63CF;
+    transition: background 200ms ease-in-out;
+}
+
+.secondaryCTA {
+    color: #727272;
+    font-family: $Source-Sans-Pro;
+    font-weight: 600;
+    font-size: 2.3rem;
+    padding: .4rem 3.37rem;
+    border: 2px solid #0F98CF;
+    border-radius: 12px;
+    position: relative;
+    margin-left: 3.7rem;
+    cursor: pointer;
+}
+
+.secondaryCTA:hover {
+    color: #616161;
+    border: 2px solid #0A63CF;
+    transition: border 200ms ease-in-out;
+    transition: color 200ms ease-in-out;
+}
+
+.secondaryCTAIcon {
+    position: absolute;
+    right: -10px;
+    bottom: -12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    z-index: -10;
+}
+
+.secondaryCTAIcon:hover {
+    color: white;
+}
+
+// Social Media Links Section
+.smContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-left: 7px solid #0F98CF;
+    margin-left: 11.37rem;
+    margin-top: 13.37rem;
+    padding-left: 1.62rem;
+}
+.smIcon {
+    margin-bottom: 1.67rem;
+}
+
+.smIconHover:hover,
+.smIcon:hover {
+    -webkit-animation: jello-horizontal 0.6s both;
+	        animation: jello-horizontal 0.6s both;
+}
+
+
+
+@-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
+
+// Hero Image
+.heroImg {
+    width: 1500px;
+    position: absolute;
+    top: -100px;
+    right: -6px;
+    z-index: 1;
+}

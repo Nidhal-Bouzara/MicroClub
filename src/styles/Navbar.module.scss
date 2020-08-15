@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
+$Source-Sans-Pro: 'Source Sans Pro', Arial;
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+// left logo section
+.bg {
+    width: 508px;
+    height: 129px;
+    display: inline-block;
+    margin-left: 6rem;
+}
+
+.bgImg {
+    position: absolute;
+    z-index: -1;
+}
+
+.logoContainer {
+    margin: 19px 0px 0px 92px;
+    display: flex;
+    cursor: pointer;
+    width: 300px;
+}
+
+.logoImg {
+    display: inline-block;
+    width: 133px;
+    height: 68px;
+}
+
+.logoText {
+    display: inline-block;
+    height: 100%;
+    margin-left: 1rem;
+    color: white;
+    font-family: $Source-Sans-Pro;
+    font-size: 2rem;
+    align-self: center;
+    font-weight: bold;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+// navigation section
+.navLinks {
+    margin-right: 11rem;
+    margin-top: 2rem;
+    z-index: 100;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 33rem;
+}
+
+.navList {
+    color: red;
+}
+
+.navList > li {
+    font-family: $Source-Sans-Pro;
+    font-size: 2rem;
+    color: #727272;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.navbar > li:hover {
+    color: red;
+
+}
+
+.navItem:hover {
+    color: #417381;
+}

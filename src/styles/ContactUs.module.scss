@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
+$Source-Sans-Pro: 'Source Sans Pro', Arial;
+
+.container {
+    height: 1150px;
+    background-color: #707070;
+    position: relative;
+    top: 13rem;
+}
+
+.watermark {
+    position: absolute;
+    left: 7.8rem;
+    top: 4.8rem;
+    z-index: 10;
+    user-select: none;
+    height: 21rem;
+}
+
+.title {
+    font-family: $Source-Sans-Pro;
+    font-size: 3.43rem;
+    color: white;
+    display: inline-block;
+    border-bottom: 7px solid #0F98CF;
+    margin-left: 11.3rem;
+    margin-top: 19.9rem;
+    letter-spacing: 2px ;
+}
+
+.formContainer {
+    margin-top: 6.8rem;
+    margin-left: 11.3rem;
+    display: flex;
+}
+
+.formTitle {
+    font-family: $Source-Sans-Pro;   
+    font-size: 4rem;
+    color: white;
+    font-weight: lighter;
+    padding-left: 1.37rem;
+    border-left: 5px solid white;
+}
+
+.formHolder {
+    width: 25%;
+    min-width: 38.25rem;
+    max-width: 40%;
+    margin-top: 2.4rem;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: $Source-Sans-Pro;
+    font-size: 2.42rem;
+    color: white;
+    font-weight: 300;
+    width: 70%;
+}
+
+.form > label {
+    margin-top: 0.8rem;
+}
+
+.form > input {
+    margin-right: 2rem;
+}
+
+.form > input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    background-color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    margin-top: 0.8rem;
+}
+
+.messageLabel {
+    grid-column: 1 / 3;
+}
+
+.messageBox {
+    grid-column: 1 / 3;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 2rem;
+    margin-top: 0.8rem;
+    padding: 0.8rem 1rem;
+    font-size: 1.4rem;
+    resize: none;
+}
+
+.formSend {
+    // background-color: white;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    padding: 0.8rem 1rem;
+    width: 80%;
+    margin-top: 2rem;
+    border: 2px solid white;
+    transition: all 200ms ease-in-out;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.formSend:hover,
+    .formSend:target,
+    .formSend:active,
+    .formSend:focus {
+    color: #707070;
+    background-color: white;
+}
+
+
+
+.orBorder {
+    height: 5rem;
+    width: 5rem;
+    min-width: 5rem;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 5.18rem;
+    margin-right: 5.18rem;
+}
+
+.orBorderText {
+    font-size: 2.2rem;
+    color: #707070;
+    font-weight: 600;
+    font-family: $Source-Sans-Pro;
+}
+
+// Second portion
+
+.contactSM {
+    margin-top: 5.93rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondTitle {
+    font-family: $Source-Sans-Pro;   
+    font-size: 4rem;
+    color: white;
+    font-weight: lighter;
+    padding-left: 1.37rem;
+    border-left: 5px solid white;
+}
+
+.contactSMLinks {
+    font-family: $Source-Sans-Pro;
+    font-weight: lighter;
+    font-size: 2.62rem;
+    color: #74BFDC;
+    text-decoration: none;
+    margin-bottom: 2.56rem;
+}
+
+.contactSMIcon {
+    color: #74BFDC;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+// Decorations 
+
+.leftDec {
+    position: absolute;
+    width: 29rem;
+    left: -5rem;
+    bottom: 0rem;
+    opacity: 70%;
+}
+
+.toprightDec {
+    position: absolute;
+    width: 22.8rem;
+    top: 13.87rem;
+    right: -5.5rem;
+    opacity: 70%;
+}
+
+.bottomrightWatermark {
+    position: absolute;
+    width: 57.45rem;
+    right: 0rem;
+    bottom: 0rem;
+    opacity: 70%;
+}

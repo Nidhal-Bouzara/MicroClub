@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
+$Source-Sans-Pro: 'Source Sans Pro', Arial;
+
+
+.eventContainer {
+    position: relative;
+    top: 90px;
+}
+
+.watermark {
+    position: absolute;
+    left: 7.8rem;
+    top: 4.8rem;
+    z-index: -10;
+    user-select: none;
+    height: 21rem;
+}
+
+.title {
+    font-family: $Source-Sans-Pro;
+    font-size: 3.43rem;
+    color: #646363;
+    display: inline-block;
+    border-bottom: 7px solid #0F98CF;
+    margin-left: 11.3rem;
+    margin-top: 19.9rem;
+    letter-spacing: 2px;
+}
+
+.cardContainer {
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 7.22rem;
+    margin-bottom: 4rem;
+}
+
+.mcLogoWatermark {
+    position: absolute;
+    width: 37.56rem;
+    bottom: -8rem;
+    left: 94.25rem;
+    z-index: -10;
+}
